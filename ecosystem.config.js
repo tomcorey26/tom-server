@@ -6,7 +6,7 @@ module.exports = {
   deploy: {
     production: {
       user: 'ubuntu',
-      host: 'ubuntu@ec2-18-218-247-243.us-east-2.compute.amazonaws.com',
+      host: 'ec2-18-218-247-243.us-east-2.compute.amazonaws.com',
       key: '~/.ssh/tom-tutorial.pem',
       ref: 'origin/master',
       repo: 'git@github.com:tomcorey26/tom-server.git',
